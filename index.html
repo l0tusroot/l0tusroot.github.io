@@ -1,55 +1,71 @@
 <html>
-    <head>  
-        <title>test page waho</title>
-        <style>
-            body {
-                padding-top: 40px; padding-left: 80px; padding-right: 80px;
-                font-size: 30px;
-                font-family:'Courier New', Courier, monospace;
-                text-align: center;
-                background-color: wheat;
-                overflow:visible;
-                color: white; }
-            
-            h1 {
-                font-size: 170px;
-                font-style: italic;
-                text-decoration: underline;
-                color: cornflowerblue;
-                line-height: 130px;
-                text-align: center;
-                margin-bottom: 50px;
-                transition: 1s; }
-            h1:hover {
-                color: orange;
-                transition: 1s;
-                letter-spacing: 30px;
-            }
+    <head>
+        <nav>
+            <a href="about">about</a>
+            <a href="1">link 1</a>
+            <a href="2">link 2</a>
 
-            a {
+        </nav>
+        <title>nsl's page</title>
+        <style>
+            nav a {
+                margin-left: 80px;
                 text-decoration: none;
+                font-size: 30px;
                 color: orange;
                 font-weight: bold; 
                 transition: 1s;}
-            a:hover {
-                color: cornflowerblue;
+            nav a:hover {
+                color: darkcyan;
                 transition: 1s;
-                font-size: 40px; }
+                text-decoration: underline; }
+
+            body {
+                padding-left: 200px; padding-right: 200px;
+                padding-top: 100px;
+                font-size: 20px;
+                text-align: right;
+                background: linear-gradient(360deg, rgba(102,199,190,1) 40%, rgba(232,194,106,1) 100%);
+                overflow:hidden; }
+            body p{
+                color: white;
+                font-family:'Arial Narrow', Arial, sans-serif;
+                display: flex;
+                padding-left: 400px; }
+
+            h1 {
+                font-family:'Courier New', Courier, monospace;
+                font-size: 80px;
+                color:darkcyan;
+                text-shadow: 4px 4px 2px rgba(255, 255, 255, 0.5);
+                font-weight: bold;
+                text-align: left;
+                margin-bottom: 100px;
+                margin-right: 100px;
+                transition: 1s; }
+            h1:hover {
+                color: darkslategrey;
+                transition: 1s;
+                letter-spacing: 5px;
+            }
 
             img {
-                width: 150px;
-                padding: 10px;
+                width: 300px;
+                -webkit-user-drag: none;
+                position: absolute;
+                top: 500px; left: 200px;
+                filter: invert(100%);
             }
         </style>
     </head>
 
     <body>
-        <h1>title wowee!</h1>
-        <t>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias labore corporis aut blanditiis dolorum voluptas, porro totam, eum ratione tempora maxime.</t> 
-        <br>
-        <img src="cat.png" alt="">
-        <br>
-        <a href="http://dpub.u-p.co/schedule/week-1">linky</a>
+        <h1>welcome 2 my homepage! :)</h1>
+        <p>digital publishing and website design by nicole sue lynn leaw
+            <br></br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor neque laboriosam id est doloremque inventore necessitatibus dolore consequatur! Maxime, consequuntur? Quod quos vitae libero eos ipsam possimus suscipit dolor.
+        </p> 
 
+        <img src="placeholder.png"/>
     </body>
 </html>
