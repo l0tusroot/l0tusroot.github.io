@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    font-family: arial;
+    padding-left: 20%;
+    padding-top: 5vmin;
+    overflow: hidden;
+}
+
+div.small {
+    font-size: 2vmin;
+    text-align: center;
+    padding: 2vmin;
+    border-top: 1px solid black;
+}
+
+div.poster {
+    background-color: white;
+    width: 75%;
+    transition: 1s;
+}
+
+div.text {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 1s;
+    border-top: 1px solid black;
+}
+
+div.text.one{
+    font-size: 3vmin;
+}
+div.text.two {
+    font-size: 7vmin;
+}
+div.text.three {
+    font-size: 10vmin;
+}
