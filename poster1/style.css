@@ -1,37 +1,60 @@
+@font-face {
+    font-family: 'custom';
+    src: url('avara.woff') format('woff');
+}
+/* GENERAL */
 body {
     background-color: black;
-    font-family: arial;
+    font-family: "custom";
     padding-left: 20%;
-    padding-top: 5vmin;
-    overflow: hidden;
-}
+    padding-top: 5%;
+    overflow: hidden; }
+
+/* SECTIONS */
+div.info{
+    position: fixed;
+    color: white;
+    left: 5%;
+    padding-right: 85%;
+    font-size: 3vmin; }
 
 div.small {
     font-size: 2vmin;
     text-align: center;
     padding: 2vmin;
-    border-top: 1px solid black;
-}
+    border-top: 1px solid black; }
 
 div.poster {
-    background-color: white;
+    background-color: black;
     width: 75%;
-    transition: 1s;
-}
+    border: 1px solid white;
+    transition: 1s; }
 
 div.text {
     text-align: center;
     text-transform: uppercase;
     transition: 1s;
-    border-top: 1px solid black;
-}
+    padding: 5px; }
 
+    
+/* RULES */
 div.text.one{
-    font-size: 3vmin;
-}
+    font-size: 2vmin; }
 div.text.two {
-    font-size: 7vmin;
-}
+    font-size: 6vmin; }
 div.text.three {
-    font-size: 10vmin;
-}
+    font-size: 9vmin; }
+
+div.text.a {
+    transform: skew(-20deg); }
+div.text.b {
+    transform: skew(0deg); }
+div.text.c {
+    transform: skew(20deg); }
+
+div.text.x {
+    color: white; }
+div.text.y {
+    color: darkcyan; }
+div.text.z {
+    color: darkorange; }
