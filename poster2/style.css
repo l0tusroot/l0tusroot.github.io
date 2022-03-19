@@ -1,0 +1,63 @@
+@font-face {
+    font-family: '1';
+    src: url('grotesk.woff') format('woff');
+}
+
+/* GENERAL */
+body {
+    background-color: wheat;
+    transition: 1s;
+    overflow: hidden; }
+div {
+    transition: 1s; }
+
+button {
+    background-color: wheat;
+    border: none;
+    font-family: monospace;
+    font-size: 4vmin;
+    position: fixed; }
+    button:hover {
+        opacity: 50%;
+    }
+
+/* SECTIONS */
+div.info{
+    text-align:right;
+    font-size: 2vmin; 
+    font-family: monospace;
+    padding: 5vmin;}
+
+div.poster {
+    background-color: rgb(224, 165, 98);
+    margin-top: 2vmin;
+padding: 4vmin;}
+
+div.text {
+    color: rgb(3, 92, 104);
+    font-size: 8vmin;
+    padding-left: 20vmin;
+}
+
+    
+/* RULES */
+div.text.one{
+    font-family: georgia; }
+div.text.two {
+    font-family: '1';}
+div.text.three {
+    font-family: monospace; }
+
+div.text.a {
+    transform:scaleY(0.5); }
+div.text.b {
+    transform:scaleY(1); }
+div.text.c {
+    transform:scaleY(1.8); }
+
+div.text.x {
+    opacity: 20%;}
+div.text.y {
+    opacity: 60%;}
+div.text.z {
+    opacity: 1;} 

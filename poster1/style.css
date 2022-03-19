@@ -7,15 +7,28 @@ body {
     background-color: black;
     font-family: "custom";
     padding-left: 20%;
-    padding-top: 5%;
+    padding-top: 2%;
     overflow: hidden; }
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    position:fixed;
+    top: 0; left: 0;
+    font-size: 4vmin;
+    font-family: monospace; }
+button:hover {
+    opacity: 50%; }
 
 /* SECTIONS */
 div.info{
     position: fixed;
     color: white;
     left: 5%;
+    opacity: 90%;
     padding-right: 85%;
+    margin-top: 4vmin;
     font-size: 3vmin; }
 
 div.small {
