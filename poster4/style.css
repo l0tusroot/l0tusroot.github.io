@@ -1,0 +1,65 @@
+@font-face {
+    font-family: '1';
+    src: url('picnic.woff') format('woff');
+}
+
+/* GENERAL */
+body {
+    background-color: cadetblue;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    position:fixed;
+    top: 0; left: 0;
+    font-size: 4vmin;
+    font-family: 'monospace'; }
+button a {
+    text-decoration: none;
+    color: black;
+}
+button:hover {
+    opacity: 50%; }
+
+/* SECTIONS */
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: '1';
+    padding: 10vmin; }
+div.col {
+    font-size: 6vmin;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    overflow: hidden; 
+    transition: 1s;}
+
+/* WIDTH */
+div.w1-1 {
+        width: 25%; }
+div.w1-2 {
+    width: 50%; }
+div.w1-3 {
+        width: 75%; }
+
+div.w2-1 {
+    width: 20%; }
+div.w2-2 {
+    width: 80%; }
+
+
+/* RULES */
+div.text.one{
+    font-size: 4vmin;}
+div.text.two {
+    font-size: 6vmin; }
+div.text.three {
+    font-size: 8vmin;}
+
+div.text.a{
+    text-align: left;}
+div.text.b {
+    text-align: center; }
+div.text.c {
+    text-align: right;}

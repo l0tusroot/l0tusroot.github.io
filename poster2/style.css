@@ -1,5 +1,13 @@
 @font-face {
     font-family: '1';
+    src: url('poly.woff') format('woff');
+}
+@font-face {
+    font-family: '2';
+    src: url('trickster.woff') format('woff');
+}
+@font-face {
+    font-family: '3';
     src: url('grotesk.woff') format('woff');
 }
 
@@ -12,41 +20,41 @@ div {
     transition: 1s; }
 
 button {
-    background-color: wheat;
+    background-color: rgba(255, 255, 255, 0);
     border: none;
     font-family: monospace;
     font-size: 4vmin;
     position: fixed; }
-    button:hover {
-        opacity: 50%;
-    }
+button:hover {
+        opacity: 50%; }
 
 /* SECTIONS */
 div.info{
     text-align:right;
-    font-size: 2vmin; 
+    font-size: 2.5vmin; 
     font-family: monospace;
-    padding: 5vmin;}
+    margin-left: 10%; }
 
 div.poster {
-    background-color: rgb(224, 165, 98);
-    margin-top: 2vmin;
-padding: 4vmin;}
+    margin-top: 3%;}
 
 div.text {
     color: rgb(3, 92, 104);
-    font-size: 8vmin;
-    padding-left: 20vmin;
+    font-size: 9.5vmin;
+    padding-left: 10vmin;
+    margin-left: 15vmin;
+    margin-right: 15vmin;
+    background-color: goldenrod; 
 }
 
     
 /* RULES */
 div.text.one{
-    font-family: georgia; }
+    font-family: '3'; }
 div.text.two {
     font-family: '1';}
 div.text.three {
-    font-family: monospace; }
+    font-family: '2'; }
 
 div.text.a {
     transform:scaleY(0.5); }
@@ -56,7 +64,7 @@ div.text.c {
     transform:scaleY(1.8); }
 
 div.text.x {
-    opacity: 20%;}
+    opacity: 30%;}
 div.text.y {
     opacity: 60%;}
 div.text.z {

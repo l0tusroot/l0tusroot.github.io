@@ -1,0 +1,66 @@
+@font-face {
+    font-family: '1';
+    src: url('basteleur.woff') format('woff');
+}
+
+/* GENERAL */
+body {
+    background-color: pink;
+    transition: 1s;
+    overflow:hidden;
+    font-family: '1';}
+div {
+    transition: 1s; }
+
+button {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-family: monospace;
+    font-size: 4vmin;
+    position: fixed; }
+button:hover {
+        opacity: 50%; }
+
+/* SECTIONS */
+div.info{
+    font-family: '1';
+    color: white;
+    position: fixed;
+    left: 80%;
+    bottom: 10%;
+    transform: rotate(270deg);}
+
+div.poster {
+    padding: 5vmin;
+    margin-left: 5vmin;
+    margin-right: 5vmin;}
+
+div.text {
+    font-size: 10vmin;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+    
+/* RULES */
+div.text.one{
+    letter-spacing: 0vmin;}
+div.text.two {
+    letter-spacing: -1vmin; }
+div.text.three {
+    letter-spacing: 2vmin;}
+
+div.text.a {
+    transform:translateX(-10vmin); }
+div.text.b {
+    transform:translateX(0vmin); }
+div.text.c {
+    transform:translateX(10vmin); }
+
+div.text.x {
+    text-shadow: 5px 5px 1px rgba(255, 1, 98, 1);}
+div.text.y {
+    text-shadow: 5px 5px 1px rgb(255, 232, 21);}
+div.text.z {
+    text-shadow: 5px 5px 1px rgba(0, 204, 255, 1);} 
