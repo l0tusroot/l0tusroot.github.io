@@ -32,7 +32,8 @@ div.info{
     transform: rotate(270deg);}
 
 div.poster {
-    padding: 5vmin;
+    margin-top: 2vmin;
+    margin-bottom: 5vmin;
     margin-left: 5vmin;
     margin-right: 5vmin;}
 

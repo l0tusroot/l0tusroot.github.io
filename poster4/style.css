@@ -5,7 +5,9 @@
 
 /* GENERAL */
 body {
-    background-color: cadetblue;
+    background-color: slategray;
+    color: black;
+    overflow: hidden;
 }
 
 button {
@@ -27,35 +29,40 @@ div.container {
     display: flex;
     flex-wrap: wrap;
     font-family: '1';
-    padding: 10vmin; }
+    padding: 2vmin; }
 div.col {
     font-size: 6vmin;
-    padding-top: 2vmin;
-    padding-bottom: 2vmin;
-    overflow: hidden; 
-    transition: 1s;}
+    transition: 1s; }
+
+div.text {
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    padding: 2vmin;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 6px 6px rgba(0, 0, 0, 0.8); }
 
 /* WIDTH */
 div.w1-1 {
-        width: 25%; }
+        width: 20%; }
 div.w1-2 {
-    width: 50%; }
+    width: 45%; }
 div.w1-3 {
-        width: 75%; }
+        width: 70%; }
 
 div.w2-1 {
-    width: 20%; }
+    width: 15%; }
 div.w2-2 {
-    width: 80%; }
+    width: 75%; }
 
 
 /* RULES */
 div.text.one{
-    font-size: 4vmin;}
+    font-size: 6vmin;}
 div.text.two {
-    font-size: 6vmin; }
+    font-size: 8vmin; }
 div.text.three {
-    font-size: 8vmin;}
+    font-size: 10vmin;}
 
 div.text.a{
     text-align: left;}
