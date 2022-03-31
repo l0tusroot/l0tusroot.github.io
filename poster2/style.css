@@ -1,19 +1,15 @@
 @font-face {
     font-family: '1';
-    src: url('poly.woff') format('woff');
-}
-@font-face {
-    font-family: '2';
     src: url('trickster.woff') format('woff');
 }
 @font-face {
-    font-family: '3';
+    font-family: '2';
     src: url('grotesk.woff') format('woff');
 }
 
 /* GENERAL */
 body {
-    background-color: wheat;
+    background-color: white;
     transition: 1s;
     overflow: hidden; }
 div {
@@ -24,48 +20,51 @@ button {
     border: none;
     font-family: monospace;
     font-size: 4vmin;
-    position: fixed; }
+    position: fixed; 
+    top: 0%;}
 button:hover {
         opacity: 50%; }
 
 /* SECTIONS */
 div.info{
     text-align:right;
-    font-size: 2.5vmin; 
-    font-family: monospace;
-    margin-left: 10%; }
-
+    font-size: 5vmin; 
+    font-family: '1';
+    position: fixed;
+    margin-left: 85%; 
+padding-right: 5vmin;}
 div.poster {
-    margin-top: 3%;}
-
+    margin-top: 10vmin;
+}
 div.text {
-    color: rgb(3, 92, 104);
-    font-size: 9.5vmin;
-    padding-left: 10vmin;
-    margin-left: 15vmin;
-    margin-right: 15vmin;
-    background-color: goldenrod; 
+    text-align: center;
+    color: white;
+    font-size: 8vmin;
+    padding-top: 1vmin; padding-bottom: 2vmin;
+    margin-right: 50vmin;
+    background-color: black;
+    border-radius: 50vmin;
 }
 
     
 /* RULES */
 div.text.one{
-    font-family: '3'; }
+    font-family: '1'; }
 div.text.two {
-    font-family: '1';}
+    font-family:courier;}
 div.text.three {
     font-family: '2'; }
 
 div.text.a {
-    transform:scaleY(0.5); }
+    transform:scaleY(0.6); }
 div.text.b {
     transform:scaleY(1); }
 div.text.c {
-    transform:scaleY(1.8); }
+    transform:scaleY(2); }
 
 div.text.x {
-    opacity: 30%;}
+    opacity: 0.6;}
 div.text.y {
-    opacity: 60%;}
+    opacity: 0.75;}
 div.text.z {
-    opacity: 1;} 
+    opacity: 0.95;} 

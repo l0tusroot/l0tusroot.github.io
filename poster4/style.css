@@ -5,7 +5,7 @@
 
 /* GENERAL */
 body {
-    background-color: slategray;
+    background-color: rgb(86, 142, 160);
     color: black;
     overflow: hidden;
 }
@@ -29,6 +29,7 @@ div.container {
     display: flex;
     flex-wrap: wrap;
     font-family: '1';
+    margin-top: 15min;
     padding: 2vmin; }
 div.col {
     font-size: 6vmin;
@@ -37,10 +38,19 @@ div.col {
 div.text {
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
     border-radius: 100px;
+    text-align: center;
     padding: 2vmin;
     margin-left: 30px;
     margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 5px 10px 6px 6px rgba(0, 0, 0, 0.8); }
+
+h1 {
+    left: 10%;
+    font-size: 2vmin;
+    font-family: monospace;
+    position: fixed;
+}
 
 /* WIDTH */
 div.w1-1 {
@@ -58,15 +68,15 @@ div.w2-2 {
 
 /* RULES */
 div.text.one{
-    font-size: 6vmin;}
+    font-size: 4vmin;}
 div.text.two {
-    font-size: 8vmin; }
+    font-size: 7vmin; }
 div.text.three {
     font-size: 10vmin;}
 
 div.text.a{
-    text-align: left;}
+    transform: translateX(-8vmin);}
 div.text.b {
-    text-align: center; }
+    transform: translateX(0vmin);}
 div.text.c {
-    text-align: right;}
+    transform: translateX(8vmin);}
