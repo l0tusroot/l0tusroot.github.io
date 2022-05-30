@@ -58,7 +58,7 @@ div.nav {
 }
 
 div.masthead {
-    padding: 15vmin;
+    padding: 10vmin;
     font-size: 8vw;
     text-align: left;
     user-select: none;
@@ -74,7 +74,7 @@ div.mastimg {
     position: absolute;
     opacity: 100%;
     transform: scaleY(0.8);
-    margin-top: -20vmin;
+    margin-top: -22.5vmin;
     background: linear-gradient(0deg, #F2CC8F 0%, rgba(224,122,95,1) 48%, rgba(129, 178, 154) 100%);
 }
 .mastimg img {
@@ -83,6 +83,7 @@ div.mastimg {
 
 div.scroll-box{
     border-top: 2px solid #3D405B;
+    border-bottom: 2px solid #3D405B;
     overflow: hidden;
 }
 @keyframes scroll{
@@ -108,17 +109,16 @@ div.about {
     padding: 30px;
     font-family: Times;
     font-size: 7vmin;
+    padding-bottom: 20px;
 }
 
 div.footnote {
     display: flex;
     flex-wrap: wrap;
-    border-top: 2px solid black;
     background-color: #F4F1DE;
 }
 
 div.note.small {
-
     width: 15%; }
 div.note {
     width: 40%;
@@ -174,12 +174,15 @@ div.container {
 div.item {
     width: 30%;
     font-size: 2vmin;
+    line-height: 3vmin;
     margin-left: 5vmin;
+    text-align: center;
 }
 
 div.num {
     font-family: '1';
-    font-size: 8vmin;
+    font-size: 6vmin;
+    line-height: 8vmin;
 }
 div.full {
     padding-bottom: 30px;
@@ -203,8 +206,9 @@ footer {
 }
 
 div.big {
-    width: 80%;
+    width: 90%;
     margin:auto;
+    background-color: rgba(61, 64, 91, 0);
 }
 
 div.full {
