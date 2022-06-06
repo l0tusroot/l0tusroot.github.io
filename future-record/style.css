@@ -60,7 +60,7 @@ div.nav {
 div.masthead {
     padding: 10vmin;
     font-size: 8vw;
-    text-align: left;
+    text-align: center;
     user-select: none;
     font-family: '1';
     /*background: linear-gradient(0deg, rgba(61, 64, 91) 0%, rgba(224,122,95,1) 48%, rgba(129, 178, 154) 100%);
@@ -73,12 +73,11 @@ div.mastimg {
     z-index: -1;
     position: absolute;
     opacity: 100%;
-    transform: scaleY(0.8);
-    margin-top: -22.5vmin;
     background: linear-gradient(0deg, #F2CC8F 0%, rgba(224,122,95,1) 48%, rgba(129, 178, 154) 100%);
 }
 .mastimg img {
-    opacity: 60%;
+    opacity: 40%;
+    margin-top: -32vmin;
 }
 
 div.scroll-box{
